@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "lab_one": {
+      "commandName": "Project",
+      "commandLineArgs": "../../../QuizQuestions.txt"
+    }
+  }
+}
