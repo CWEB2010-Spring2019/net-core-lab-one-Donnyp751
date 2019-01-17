@@ -186,13 +186,13 @@ namespace lab_one
         }
         private void printTableLine(string firstColumn, string secondColumn, string thirdColumn)
         {
-            int firstColumnBuffer = 4;
+            int firstColumnBuffer = 5;
             int secondColumnBuffer = 15;
             int thirdColumnBuffer = 17;
 
             writeSpace((firstColumnBuffer - firstColumn.Length) / 2);
             Console.Write(firstColumn);
-            writeSpace((firstColumnBuffer - firstColumn.Length) / 2);
+            writeSpace(((firstColumnBuffer - firstColumn.Length) / 2 )+ (firstColumnBuffer - firstColumn.Length)%2);
             Console.Write("|");
 
             writeSpace((secondColumnBuffer - secondColumn.Length) / 2);
@@ -268,7 +268,11 @@ namespace lab_one
 
             try
             {
-                test = new Test(File.ReadAllLines(args[0]));
+                if(args.Length == 1)
+                    test = new Test(File.ReadAllLines(args[0]));
+                else
+                    test = new Test(File.ReadAllLines("QuizQuestions.txt"));
+
             }
             catch (Exception e)
             {
