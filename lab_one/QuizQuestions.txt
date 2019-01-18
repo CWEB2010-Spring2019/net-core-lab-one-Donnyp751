@@ -1,0 +1,11 @@
+﻿Question,Answer1,Answer2,Answer3,Answer4,CorrectIndex
+What year was DotNetCore released?,2004,2016,2009,2014,2
+What is not a valid dotNetCore datatype?, uchar, byte, bool, word, 4
+What is not a valid reserved dotNetCore keyword?, abstract, unique, ref, extern, 2
+What is not a valid dotNetCore access modifier?, hidden, public, private, protected, 1
+What is the most permissive access modifier?, public, private, protected, internal, 1
+What is the least permissive access modifier?, public, private, protected, internal, 2
+What keyword refers to the current instance of an object?, that, self, base, this, 4
+What keyword refers to the base instance of an object?, that, this, base, self, 3
+The process of defining two or more methods within the same class that have same name but different parameters list?, Method overloading, Method overriding, Encapsulation, None of the mentioned, 1
+Which of these can be overloaded?, Constructors, Methods, Constructors and Methods, None of the mentioned, 3
